@@ -9,4 +9,4 @@ alias ls='ls --color=auto'
 PS1='[\u@\h \W]\$ '
 
 # default browser
-# export BROWSER="/usr/bin/firefox"
+export BROWSER="/usr/bin/firefox"
