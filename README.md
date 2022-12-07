@@ -10,7 +10,7 @@ Config files for my personal Arch Linux i3 WM build. Here's a [screenshot](https
 * [Clear Sans](https://www.fontsquirrel.com/fonts/clear-sans)
 * [Kitty](https://archlinux.org/packages/community/x86_64/kitty/) (terminal-emulator)
 * [Brightnessctl](https://archlinux.org/packages/community/x86_64/brightnessctl/)
-* [Greenclip](https://aur.archlinux.org/packages/rofi-greenclip) (make sure to [enable](https://wiki.archlinux.org/title/Systemd#Using_units) `greenclip.service`)
+* [Greenclip](https://aur.archlinux.org/packages/rofi-greenclip)<sup>aur</sup> (make sure to [enable](https://wiki.archlinux.org/title/Systemd#Using_units) `greenclip.service`)
 
 *\* Optional: PulseAudio (volume bar), Flameshot (i3 screenshots), Nitrogen (wallpapers).*
 
