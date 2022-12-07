@@ -1,5 +1,5 @@
 # dotfiles
-Config files for my personal Arch Linux build. Public repository in case anyone wants to clone my configuration -- supporting open-source.
+Config files for my personal Arch Linux i3 WM build. Here's a [screenshot](https://i.imgur.com/McII6GX.png).
 
 ### dependencies (WM setup)
 * [i3](https://archlinux.org/packages/community/x86_64/i3-wm/) (or the [package group / gaps](https://wiki.archlinux.org/title/i3#Installation))
