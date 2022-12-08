@@ -63,9 +63,9 @@ bindsym $mod+Shift+Right move right
 bindsym $mod+f fullscreen toggle
 
 # change container layout (stacked, tabbed, toggle split)
-bindsym $mod+s layout stacking
 bindsym $mod+w layout tabbed
 bindsym $mod+e layout toggle split
+#bindsym $mod+s layout stacking
 
 # toggle tiling / floating
 bindsym $mod+Shift+space floating toggle
@@ -129,3 +129,8 @@ exec kitty
 # clipboard tool
 exec --no-startup-id greenclip daemon>/dev/null
 bindsym $mod+v exec --no-startup-id rofi -modi "clipboard:greenclip print" -show clipboard
+
+# scratchpads
+bindsym $mod+Shift+minus move scratchpad
+bindsym $mod+minus scratchpad show
+# bindsym mod4+s [title="^Sup ::"] scratchpad show	#show sup-mail if any
