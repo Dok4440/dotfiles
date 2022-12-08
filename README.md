@@ -72,7 +72,7 @@ read -p "Commit message : " MESSAGE
 git commit -a -m "$MESSAGE"
 git push --set-upstream origin main
 ```
-All you have to do is change a dotfile (e.g. `~/.config/polybar/config`) and when you're done run this script. It will *re-add* changes to chezmoi and push it the repository. It does not handle new files, only edits to files you've already added to chezmoi.
+All you have to do is change a dotfile (e.g. `~/.config/polybar/config`) and when you're done run this script. This script does not handle new files, only edits to files you've already added to chezmoi.
 
 <hr/>
 
