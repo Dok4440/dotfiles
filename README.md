@@ -40,7 +40,7 @@ Uncomment the following line in `~/.config/i3/config` to show the sup-mail scrat
 ```
 
 #### *3. Other keybinds to focus/move windows*
-The default keys to change focus or move windows in i3 are `j`, `k`, `l` and `;`. I disabled these in my config since arrow keys are more convenient for me. To re-add these keys take a look at the default i3 config file at `/etc/i3/config` and copy the required lines to `~/.config/i3/config`.
+The default keys to change focus or move windows in i3 are `j`, `k`, `l` and `;`. I disabled these in my config since arrow keys are more convenient for me. To re-bind these take a look at the default i3 config file at `/etc/i3/config` and copy the required lines to `~/.config/i3/config`.
 
 ## Keybinds
 |Keybind|Action|Keybind|Action|
