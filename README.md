@@ -23,7 +23,7 @@ pacman -S chezmoi
 chezmoi init --apply https://github.com/Dok4440/dotfiles.git
 ```
 
-#### Edit chezmoi: [read the docs.](https://www.chezmoi.io/user-guide/command-overview/)
+#### Work with chezmoi: [read the docs](https://www.chezmoi.io/user-guide/command-overview/) and check out [#automation](#automation).
 
 ## Configuration
 #### *1. Setting wallpaper*
@@ -60,6 +60,19 @@ The default keys to change focus or move windows in i3 are `j`, `k`, `l` and `;`
 |$mod + Space|focus mode_toggle|$mod + Shift + arrows|move window around|
 
 *\* My personal $mod is Mod4 (Super).*
+
+## Automation
+This is a simple script I use to automate chezmoi edits:
+```sh
+#!/bin/bash
+DIR=/home/[USER]/.local/share/chezmoi
+cd $DIR
+chezmoi re-add
+read -p "Commit message : " MESSAGE
+git commit -a -m "$MESSAGE"
+git push --set-upstream origin main
+```
+All you have to do is change a dotfile (e.g. `~/.config/polybar/config`) and when you're done run this script. It will *re-add* changes to chezmoi and push it the repository. It does not handle new files, only edits to files you've already added to chezmoi.
 
 <hr/>
 
