@@ -3,3 +3,5 @@
 	name = dok4440
 [core]
 	editor = nano
+[pull]
+	rebase = false
