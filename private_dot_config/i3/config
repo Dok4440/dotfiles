@@ -123,7 +123,7 @@ bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcu
 exec_always "/home/wdb/.config/polybar/launch.sh" 	#will start polybar on i3 start and restart
 exec_always "setxkbmap -layout gb" 			#set keyboard layout to UK
 exec_always "brightnessctl set 5%"			#set brightness to 10% (avoid being stuck on 0%)
-# exec --no-startup-id nitrogen --set-zoom-fill /usr/share/backgrounds/gnome/dune-d.svg
+# exec --no-startup-id nitrogen --set-zoom-fill /path/to/image.png.svg.jpg
 exec kitty
 
 # clipboard tool
@@ -134,3 +134,7 @@ bindsym $mod+v exec --no-startup-id rofi -modi "clipboard:greenclip print" -show
 bindsym $mod+Shift+minus move scratchpad
 bindsym $mod+minus scratchpad show
 # bindsym mod4+s [title="^Sup ::"] scratchpad show	#show sup-mail if any
+
+# default windows
+for_window [class="Spotify"] move container to workspace $ws4
+# assign [class="Discord"] $ws3
