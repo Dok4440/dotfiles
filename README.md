@@ -42,6 +42,6 @@ chezmoi init --apply https://github.com/Dok4440/dotfiles.git
 |$mod + w|layout tabbed|$mod + Shift + r|restart i3|
 |$mod + e|layout toggle split|~~$mod + h~~|~~split horizontally~~|
 |$mod + Shift + Space|floating toggle|~~$mod + v~~|~~split vertically~~|
-|$mod + Space|focus mode_toggle|$mod + arrows|move window around|
+|$mod + Space|focus mode_toggle|$mod + Shift + arrows|move window around|
 
 *\* My personal $mod is Mod4 (Super).*
