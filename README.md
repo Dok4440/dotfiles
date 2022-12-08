@@ -14,8 +14,7 @@ Config files for my personal Arch Linux i3 WM build. Here's a [screenshot](https
 
 *\* Optional: PulseAudio (volume bar), Flameshot (i3 screenshots), Nitrogen (wallpapers).*
 
-
-### Configuration
+## Installation
 #### Quick install to device
 ```sh
 pacman -S chezmoi
@@ -25,6 +24,23 @@ chezmoi init --apply https://github.com/Dok4440/dotfiles.git
 ```
 
 #### Edit chezmoi: [read the docs.](https://www.chezmoi.io/user-guide/command-overview/)
+
+## Configuration
+#### *1. Setting wallpaper*
+To set wallpapers on i3 startup, install [nitrogen](https://wiki.archlinux.org/title/nitrogen) and uncomment the following line in `~/.config/i3/config`:
+```config
+# exec --no-startup-id nitrogen --set-zoom-fill /path/to/image.png.svg.jpg
+```
+Obviously you will need to change the path to your image. For the sake of testing, use `exec_always` instead of `exec` to view changes on [i3 restart](#keybinds).
+
+#### *2. Sup-mail scratchpad*
+Uncomment the following line in `~/.config/i3/config` to show the sup-mail scratchpad window, if any exist.
+```config
+# bindsym mod4+s [title="^Sup ::"] scratchpad show      #show sup-mail if any
+```
+
+#### *3. Other keybinds to focus/move windows*
+The default keys to change focus or move windows in i3 are `j`, `k`, `l` and `;`. I disabled these in my config since arrow keys are more convenient for me. To re-add these keys take a look at the default i3 config file at `/etc/i3/config` and copy the required lines to `~/.config/i3/config`.
 
 ## Keybinds
 |Keybind|Action|Keybind|Action|
@@ -44,3 +60,7 @@ chezmoi init --apply https://github.com/Dok4440/dotfiles.git
 |$mod + Space|focus mode_toggle|$mod + Shift + arrows|move window around|
 
 *\* My personal $mod is Mod4 (Super).*
+
+<hr/>
+
+*This guide was written by Dok4440, want to show appreciation? Give this repository a star!*
