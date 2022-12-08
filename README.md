@@ -24,8 +24,7 @@ pacman -S chezmoi
 chezmoi init --apply https://github.com/Dok4440/dotfiles.git
 ```
 
-#### Edit chezmoi
-[Read the docs.](https://www.chezmoi.io/user-guide/command-overview/)
+#### Edit chezmoi: [read the docs.](https://www.chezmoi.io/user-guide/command-overview/)
 
 ## Keybinds
 |Keybind|Action|Keybind|Action|
