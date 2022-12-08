@@ -29,14 +29,14 @@ chezmoi init --apply https://github.com/Dok4440/dotfiles.git
 #### *1. Setting wallpaper*
 To set wallpapers on i3 startup, install [nitrogen](https://wiki.archlinux.org/title/nitrogen) and uncomment the following line in `~/.config/i3/config`:
 ```config
-# exec --no-startup-id nitrogen --set-zoom-fill /path/to/image.png.svg.jpg
+#exec --no-startup-id nitrogen --set-zoom-fill /path/to/image.png.svg.jpg
 ```
 Obviously you will need to change the path to your image. For the sake of testing, use `exec_always` instead of `exec` to view changes on [i3 restart](#keybinds).
 
 #### *2. Sup-mail scratchpad*
 Uncomment the following line in `~/.config/i3/config` to show the sup-mail scratchpad window, if any exist.
 ```config
-# bindsym mod4+s [title="^Sup ::"] scratchpad show      #show sup-mail if any
+#bindsym mod4+s [title="^Sup ::"] scratchpad show
 ```
 
 #### *3. Other keybinds to focus/move windows*
