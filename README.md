@@ -17,7 +17,7 @@ Config files for my personal Arch Linux i3 WM build. Here's a [screenshot](https
 ## Installation
 #### Quick install to device
 ```sh
-pacman -S chezmoi
+pacman -S --needed chezmoi
 ```  
 ```sh
 chezmoi init --apply https://github.com/Dok4440/dotfiles.git
