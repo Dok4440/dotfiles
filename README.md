@@ -65,8 +65,7 @@ The default keys to change focus or move windows in i3 are `j`, `k`, `l` and `;`
 This is a simple script I use to automate chezmoi edits:
 ```sh
 #!/bin/bash
-DIR=/home/[USER]/.local/share/chezmoi
-cd $DIR
+cd /home/[USER]/.local/share/chezmoi
 chezmoi re-add
 read -p "Commit message : " MESSAGE
 git commit -a -m "$MESSAGE"
