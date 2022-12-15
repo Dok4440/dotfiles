@@ -62,7 +62,7 @@ The default keys to change focus or move windows in i3 are `j`, `k`, `l` and `;`
 *\* My personal $mod is Mod4 (Super).*
 
 ## Automation
-This is a simple script I use to automate chezmoi edits:
+This is a simple script I wrote to automate chezmoi edits:
 ```sh
 #!/bin/bash
 cd /home/[USER]/.local/share/chezmoi
