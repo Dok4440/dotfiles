@@ -15,4 +15,3 @@ cd ~/.config/polybar/
 	tail -1 updates_list.txt;
 }
 
-
