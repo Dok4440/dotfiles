@@ -34,7 +34,10 @@ bindsym $mod+Shift+Up move up
 bindsym $mod+Shift+Right move right
 bindsym $mod+f fullscreen toggle
 bindsym $mod+w layout tabbed
+bindsym $mod+s layout stacking
 bindsym $mod+e layout toggle split
+bindsym $mod+h split h
+bindsym $mod+b split v
 bindsym $mod+Shift+space floating toggle
 bindsym $mod+space focus mode_toggle
 bindsym $mod+a focus parent
@@ -66,22 +69,23 @@ bindsym $mod+Shift+minus move scratchpad
 bindsym $mod+minus scratchpad show
 
 
-exec --no-startup-id kitty
+exec --no-startup-id kitty --class "scratchpad"
 exec --no-startup-id greenclip daemon>/dev/null
 exec --no-startup-id nm-applet
 
 exec_always "/home/wdb/.config/polybar/launch.sh"
 exec_always "setxkbmap -layout gb"
 exec_always "brightnessctl set 5%"
+exec_always --no-startup-id nitrogen --set-zoom-fill ~/.config/i3/img/tallinn_wallpaper.jpg
 
 for_window [class="Spotify"] move container to workspace $ws4
-
+for_window [class="scratchpad"] , move scratchpad
 
 
 ######################
 ## UNCOMMENT TO USE ##
 ######################
-#exec --no-startup-id nitrogen --set-zoom-fill /path/to/image.png.svg.jpg
+#exec_always --no-startup-id nitrogen --set-zoom-fill /path/to/image.png.svg.jpg
 #bindsym mod4+s [title="^Sup ::"] scratchpad show
 #assign [class="Discord"] $ws3 #doesn't work
 #bindsym $mod+d focus child
