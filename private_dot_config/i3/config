@@ -76,7 +76,7 @@ exec --no-startup-id nm-applet
 exec_always "/home/wdb/.config/polybar/launch.sh"
 exec_always "setxkbmap -layout gb"
 exec_always "brightnessctl set 5%"
-exec_always --no-startup-id nitrogen --set-zoom-fill ~/.config/i3/img/tallinn_wallpaper.jpg
+exec_always --no-startup-id nitrogen --set-auto ~/.config/i3/img/pexels-mustafa-hussein.jpg
 
 for_window [class="Spotify"] move container to workspace $ws4
 for_window [class="scratchpad"] , move scratchpad
