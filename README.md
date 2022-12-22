@@ -46,7 +46,7 @@ The default keys to change focus or move windows in i3 are `j`, `k`, `l` and `;`
 |Keybind|Action|Keybind|Action|
 |:---|:---|:---|:---|
 |$mod + Enter|kitty (terminal-emulator)|$mod + a|focus parent|
-|$mod + Shift + q|kill window|~~$mod + d~~|~~focus child~~|
+|$mod + Shift + q|kill window|$mod + s|stacked layout|
 |$mod + d|rofi dmenu|$mod + $number|workspace number $number|
 |$mod + prt sc|[flameshot](https://archlinux.org/packages/community/x86_64/flameshot/) gui|$mod + Shift + $number|move container to workspace $number
 |$mod + left arrow|focus left|$mod + v|open [greenclip<sup>aur</sup>](https://aur.archlinux.org/packages/rofi-greenclip)|
@@ -54,9 +54,9 @@ The default keys to change focus or move windows in i3 are `j`, `k`, `l` and `;`
 |$mod + up arrow|focus up|$mod + minus|scratchpad toggle|
 |$mod + right arrow|focus right|$mod + Shift + c|reload config file|
 |$mod + f|fullscreen toggle|$mod + Shift + e|exit i3|
-|$mod + w|layout tabbed|$mod + Shift + r|restart i3|
-|$mod + e|layout toggle split|~~$mod + h~~|~~split horizontally~~|
-|$mod + Shift + Space|floating toggle|~~$mod + v~~|~~split vertically~~|
+|$mod + w|layout tabbed layout|$mod + Shift + r|restart i3|
+|$mod + e|layout toggle split|$mod + h|split horizontally|
+|$mod + Shift + Space|floating toggle|$mod + b|split vertically|
 |$mod + Space|focus mode_toggle|$mod + Shift + arrows|move window around|
 
 *\* My personal $mod is Mod4 (Super).*
