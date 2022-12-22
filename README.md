@@ -31,7 +31,9 @@ To set wallpapers on i3 startup, install [nitrogen](https://wiki.archlinux.org/t
 ```config
 #exec --no-startup-id nitrogen --set-zoom-fill /path/to/image.png.svg.jpg
 ```
-Obviously you will need to change the path to your image. For the sake of testing, use `exec_always` instead of `exec` to view changes on [i3 restart](#keybinds).
+This will override the nitrogen wallpaper that is currently used in the config file. By uncommenting this line instead of editing the original command it will always go back to the default wallpaper when running into problems. For the sake of testing, use `exec_always`<sup>*</sup> instead of `exec` to view changes on [i3 restart](#keybinds).
+
+\* [#_automatically_starting_applications_on_i3_startup](https://i3wm.org/docs/userguide.html#_automatically_starting_applications_on_i3_startup)
 
 #### *2. Sup-mail scratchpad*
 Uncomment the following line in `~/.config/i3/config` to show the sup-mail scratchpad window, if any exist.
@@ -65,13 +67,17 @@ The default keys to change focus or move windows in i3 are `j`, `k`, `l` and `;`
 This is a simple script I wrote to automate chezmoi edits:
 ```sh
 #!/bin/bash
-cd /home/[USER]/.local/share/chezmoi
+if [[ $EUID -eq 0 ]]; then
+    echo "This script cannot be run as root."
+    exit 1
+fi
+cd ~/.local/share/chezmoi
 chezmoi re-add
 read -p "Commit message : " MESSAGE
 git commit -a -m "$MESSAGE"
 git push --set-upstream origin main
 ```
-All you have to do is change a dotfile (e.g. `~/.config/polybar/config`) and when you're done run this script. This script does not handle new files, only edits to files you've already added to chezmoi.
+All you have to do is change a dotfile (e.g. `~/.config/polybar/config`) and when you're done run this script. This script does not handle new files, only edits to files you've already added to chezmoi. This script cannot be run with root.
 
 <hr/>
 
