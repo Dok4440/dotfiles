@@ -83,7 +83,7 @@ for_window [class="scratchpad"] , move scratchpad
 
 
 ######################
-## UNCOMMENT TO USE ##
+## UNCOMMENT TO USE ###
 ######################
 #exec --no-startup-id nitrogen --set-auto /path/to/image.png.svg.jpg
 #bindsym mod4+s [title="^Sup ::"] scratchpad show
