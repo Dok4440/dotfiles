@@ -65,7 +65,7 @@ The default keys to change focus or move windows in i3 are `j`, `k`, `l` and `;`
 
 ## Automation
 This is a simple script I wrote to automate chezmoi edits:
-> `~/.config/chezmoi/automation.sh`
+> ~/.config/chezmoi/automation.sh
 ```sh
 #!/bin/bash
 if [[ $EUID -eq 0 ]]; then
@@ -83,7 +83,7 @@ All you have to do is change a dotfile (e.g. `~/.config/polybar/config`) and whe
 ## Greenclip
 I didn't include my greenclip configuration in the dotfiles because I have some sensitive information stored as [static history](https://github.com/erebe/greenclip#description). However, if you want a similar outlook, here's the config that I use:
 
-> `.config/greenclip.toml`
+> ~/.config/greenclip.toml
 ```toml
 [greenclip]
   blacklisted_applications = []
@@ -92,14 +92,7 @@ I didn't include my greenclip configuration in the dotfiles because I have some 
   image_cache_directory = "/tmp/greenclip"
   max_history_length = 10
   max_selection_size_bytes = 0
-
-  static_history = 
-	[
-	" ",
-	"--'~/.config/greenclip.toml'--",
-	"[PERMANENTLY STORED INFO HERE]"
-	]
-
+  static_history = [" ", "--'~/.config/greenclip.toml'--", "[PERMANENTLY STORED INFO HERE]"]
   trim_space_from_selection = true
   use_primary_selection_as_input = false
 ```
