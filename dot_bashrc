@@ -10,3 +10,12 @@ PS1='[\u@\h \W]\$ '
 
 # default browser
 export BROWSER="/usr/bin/firefox"
+
+# MANWIDTH for manpages
+# https://wiki.archlinux.org/title/man_page#Page_width
+man() {
+    local width=$(tput cols)
+    [ $width -gt $MANWIDTH ] && width=$MANWIDTH
+    env MANWIDTH=$width \
+    man "$@"
+}
