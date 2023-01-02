@@ -81,6 +81,9 @@ exec_always "brightnessctl set 5%"
 for_window [class="Spotify"] move container to workspace $ws4
 for_window [class="scratchpad"] , move scratchpad
 
+gaps inner 5px
+smart_gaps on
+default_border pixel 0
 
 ######################
 ## UNCOMMENT TO USE ###
