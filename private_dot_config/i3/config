@@ -68,15 +68,14 @@ bindsym $mod+v exec --no-startup-id rofi -modi "clipboard:greenclip print" -show
 bindsym $mod+Shift+minus move scratchpad
 bindsym $mod+minus scratchpad show
 
-
 exec --no-startup-id kitty --class "scratchpad"
 exec --no-startup-id greenclip daemon>/dev/null
 exec --no-startup-id nm-applet
-exec --no-startup-id nitrogen --set-auto ~/.config/i3/img/pexels-background.jpg
 
-exec_always "/home/wdb/.config/polybar/launch.sh"
-exec_always "setxkbmap -layout gb"
-exec_always "brightnessctl set 5%"
+exec_always --no-startup-id "/home/wdb/.config/polybar/launch.sh"
+exec_always --no-startup-id "nitrogen --set-zoom-fill --random --force-setter=xinerama ~/.config/i3/img/"
+exec_always --no-startup-id "setxkbmap -layout gb"
+exec_always --no-startup-id "brightnessctl set 5%"
 
 for_window [class="Spotify"] move container to workspace $ws4
 for_window [class="scratchpad"] , move scratchpad
