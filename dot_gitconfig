@@ -3,5 +3,6 @@
 	name = dok4440
 [core]
 	editor = nano
+	quotepath = false
 [pull]
 	rebase = false
