@@ -12,7 +12,7 @@ Config files for my personal Arch Linux i3 WM build. Here's a [screenshot](https
 * [Brightnessctl](https://archlinux.org/packages/community/x86_64/brightnessctl/)
 * [Greenclip](https://aur.archlinux.org/packages/rofi-greenclip)<sup>aur</sup> (make sure to [enable](https://wiki.archlinux.org/title/Systemd#Using_units) `greenclip.service`)
 
-*\* Optional: PulseAudio (volume bar), Flameshot (i3 screenshots), Nitrogen (wallpapers).*
+*\* Optional: PulseAudio (volume bar), Flameshot (i3 screenshots), Nitrogen (wallpapers), dunst (notification-daemon).*
 
 ## Installation
 #### Quick install to device
