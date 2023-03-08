@@ -20,7 +20,7 @@ Config files for my personal Arch Linux i3 WM build. Here's a [screenshot](https
 pacman -S --needed chezmoi
 ```  
 ```sh
-chezmoi init --apply http://gitinator.me/rwell-84/dotfiles.git
+chezmoi init --apply http://gitinator.hopto.org/rwell-84/dotfiles.git
 ```
 
 #### Work with chezmoi: [read the docs](https://www.chezmoi.io/user-guide/command-overview/) and check out [#automation](#automation).
