@@ -108,12 +108,13 @@ usermod -aG wheel
 *install packages xorg-server + nvidia, nvidia-utils OR xf86-video-amdgpu*
 
 ### Window manager (i3)
-Install the required packages for my specific i3 configuration as shared in this repository.
-```
-sudo pacman -S lightdm lightdm-gtk-greeter i3-wm rofi polybar pacman-contrib ttf-font-awesome kitty brightnessctl nitrogen git chezmoi efibootmgr grub os-prober
-```
+Install the required packages for my specific i3 configuration as shared in this repository:
 
-[Enable](https://wiki.archlinux.org/title/Enable) `lightdm.service` so LightDM will be started at boot; see also [Display manager#Loading the display manager](https://wiki.archlinux.org/title/Display_manager#Loading_the_display_manager).
+- `i3-wm` or the [i3 package group](https://archlinux.org/groups/x86_64/i3/)
+- `lightdm` and `lightdm-gtk-greeter`
+- `efibootmgr`, `grub`, `os-prober` (dual boot only)
+
+[Enable](https://wiki.archlinux.org/title/Enable) `lightdm.service` so LightDM will be started at boot; see also [Display manager#Loading the display manager](https://wiki.archlinux.org/title/Display_manager#Loading_the_display_manager).   
 
 ### Exit and reboot
 ```
