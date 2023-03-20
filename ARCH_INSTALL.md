@@ -85,11 +85,6 @@ edit `/etc/locale.conf` to set the default langauge. Here's an example to set th
 LANG=en_US.UTF-8
 ```
 
-Enable the networkmanager systemd unit.
-```
-systemctl enable NetworkManager
-```
-
 Set the password for root.
 ```
 passwd
@@ -103,18 +98,67 @@ usermod -aG wheel
 
 \* To give sudo permissions: uncomment `# %wheel ALL=(ALL) ALL` in `/etc/sudoers`.
 
+### Packages
+[Enable](https://wiki.archlinux.org/title/Enable) `NetworkManager`.
 
-*install ucodes (ADM: 'pacman -S amd-ucode' / Intel: 'pacman -S intel-ucode')*
-*install packages xorg-server + nvidia, nvidia-utils OR xf86-video-amdgpu*
+Install processor microcode:
+```
+# AMD
+pacman -S amd-ucode
 
-### Window manager (i3)
+# Intel
+pacman -S intel-ucode
+```
+
+Install xorg:
+```
+pacman -S xorg-server
+```
+
+Install graphics drivers:
+```
+# NVIDIA
+pacman -S nvidia nvidia-utils
+
+# AMD
+pacman -S xf86-video-amdgpu
+
+# Intel integrated
+pacman -S xf86-video-intel
+```
+
 Install the required packages for my specific i3 configuration as shared in this repository:
 
-- `i3-wm` or the [i3 package group](https://archlinux.org/groups/x86_64/i3/)
-- `lightdm` and `lightdm-gtk-greeter`
-- `efibootmgr`, `grub`, `os-prober` (dual boot only)
+```bash
+pacman -S i3-wm lightdm lightdm-gtk-greeter efibootmgr grub
+```
 
-[Enable](https://wiki.archlinux.org/title/Enable) `lightdm.service` so LightDM will be started at boot; see also [Display manager#Loading the display manager](https://wiki.archlinux.org/title/Display_manager#Loading_the_display_manager).   
+[Enable](https://wiki.archlinux.org/title/Enable) `lightdm.service` so LightDM will be started at boot; see also [Display manager#Loading the display manager](https://wiki.archlinux.org/title/Display_manager#Loading_the_display_manager).  
+
+\* These are only the required packages. Other packages that I usually start with are listed [here](PACKAGES.md).
+
+### Configure GRUB
+To start, let's create the EFI directory where we'll mount the efi partition.
+```bash
+mkdir /boot/efi
+mount /dev/sda1 /boot/efi
+```
+
+Now we'll use 'grub-install' to install GRUB in the newly mounted EFI partition.
+```bash
+grub-install --target=x86_64-efi --bootloader-id=some_name
+```
+
+If you're installing Arch alongside other operating systems, you'll also need the `os-prober` package. This package will search for already installed operating systems on your machine and will make them a part of your GRUB. you'll have to enable it before generating the config. To do so, open the `/etc/default/grub` file in a text editor and uncommont the following line:
+```
+#GRUB_DISABLE_OS_PROBER=false
+```
+
+Now execute the following command to generate the configuration file:
+```
+grub-mkconfig -o /boot/grub/grub.cfg
+```
+
 
 ### Exit and reboot
 ```
@@ -122,5 +166,3 @@ exit
 umount -R /mnt
 reboot
 ```
-
-THIS GUIDE WILL BE UPDATED. (ADD GRUB)
