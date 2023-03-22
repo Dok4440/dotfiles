@@ -36,6 +36,7 @@
 - linux-firmware
 - sudo
 - networkmanager
+- rsync
 
 
 ### AUR
