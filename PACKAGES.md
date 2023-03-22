@@ -1,52 +1,47 @@
-### Official repositories
+Official repositories
 
+    autorandr
+    base
+    base-devel
+    blueman
+    brightnessctl
+    discord
+    dunst
+    efibootmgr
+    firefox
+    flameshot
+    font awesome
+    gparted
+    greenclip
+    grub
+    i3-wm
+    kitty
+    lightdm
+    lightdm-gtk-greeter
+    linux
+    linux-firmware
+    man-db
+    nautilus
+    neovim
+    nitrogen
+    os-prober
+    pacman-contrib
+    polybar
+    pulseaudio
+    pulseaudio-bluetooth
+    rofi
+    sudo
+    vlc
+    virtualbox
 
-- i3-wm
-- rofi
-- polybar
-- pacman-contrib
-- font awesome
-- kitty
-- brightnessctl
-- greenclip
-- pulseaudio
-- pulseaudio-bluetooth
-- flameshot
-- nitrogen
-- dunst
-- firefox
-- discord
-- vlc
-- virtualbox
-- autorandr
-- nautilus
-- neovim
-- man-db
-- gparted
-- bluez
-- blueman
-- lightdm
-- lightdm-gtk-greeter
-- efibootmgr
-- grub
-- os-prober
-- base
-- base-devel
-- linux
-- linux-firmware
-- sudo
-- networkmanager
-- rsync
+AUR
 
+    downgrade
+    mirage
+    rofi-greenclip
+    spotify
 
-### AUR
-- spotify
-- rofi-greenclip
-- mirage
-- downgrade
+Others
 
-
-
-### Others
-- clear sans font
-- yay
+    clear sans font
+    yay
