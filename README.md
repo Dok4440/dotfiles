@@ -1,4 +1,4 @@
-# Dotfiles (ONLY TESTED/USER ON VANILLA ARCH)
+# Dotfiles (ONLY TESTED ON VANILLA ARCH)
 Config files for my personal Arch Linux i3 WM build. Here's a [screenshot](https://i.imgur.com/McII6GX.png).
 
 ### Dependencies (WM setup)
