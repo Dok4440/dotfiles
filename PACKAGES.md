@@ -22,6 +22,7 @@ Official repositories
     linux-firmware
     man-db
     nautilus
+    neofetch (sys) & onefetch (git)
     neovim
     nitrogen
     os-prober
