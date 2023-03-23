@@ -13,7 +13,6 @@ set $ws10 "10"
 
 set $mod Mod4
 floating_modifier $mod
-tiling_drag modifier titlebar
 font pango:Source ClearSans 10
 
 bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl set +10%
@@ -77,13 +76,12 @@ exec --no-startup-id nm-applet
 exec_always --no-startup-id "/home/wdb/.config/polybar/launch.sh"
 exec_always --no-startup-id "nitrogen --set-zoom-fill --random --force-setter=xinerama ~/.config/i3/img/"
 exec_always --no-startup-id "setxkbmap -layout gb"
-exec_always --no-startup-id "brightnessctl set 5%"
+exec_always --no-startup-id picom --experimental-backends
+
 
 for_window [class="Spotify"] move container to workspace $ws4
 for_window [class="scratchpad"] , move scratchpad
 
-gaps inner 5px
-smart_gaps on
 default_border pixel 0
 
 ######################
@@ -93,3 +91,7 @@ default_border pixel 0
 #bindsym mod4+s [title="^Sup ::"] scratchpad show
 #assign [class="Discord"] $ws3 #doesn't work
 #bindsym $mod+d focus child
+#exec_always --no-startup-id "brightnessctl set 5%"
+#gaps inner 5px
+#smart_gaps on
+#tiling_drag modifier titlebar

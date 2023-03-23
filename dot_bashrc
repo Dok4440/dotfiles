@@ -6,7 +6,7 @@
 [[ $- != *i* ]] && return
 
 alias ls='ls --color=auto'
-alias ffxiv='optirun dev.goats.xivlauncher'
+alias htop='btop'
 PS1='[\u@\h \W]\$ '
 
 # default browser
