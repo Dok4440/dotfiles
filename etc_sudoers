@@ -1,0 +1,9 @@
+root ALL=(ALL:ALL) ALL
+%wheel ALL=(ALL:ALL) ALL
+%wheelnopwd ALL=(ALL:ALL) NOPASSWD: ALL
+%sudo	ALL=(ALL:ALL) ALL
+
+Defaults env_editor,editor=/usr/bin/nvim
+Defaults insults
+
+@includedir /etc/sudoers.d

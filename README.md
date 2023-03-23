@@ -97,6 +97,9 @@ I didn't include my greenclip configuration in the dotfiles because I have some 
   use_primary_selection_as_input = false
 ```
 
+## /etc/
+Files that start with "etc_" in this repository can be savely moved to `/etc/`, they're simple configurations that I wanted to add to the dotfiles. Look them through, they're unrelated to the other config files and thus optional.
+
 <hr/>
 
 *This guide was written by Dok4440, want to show appreciation? Give this repository a star!*
