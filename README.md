@@ -44,6 +44,15 @@ Uncomment the following line in `~/.config/i3/config` to show the sup-mail scrat
 #### *3. Other keybinds to focus/move windows*
 The default keys to change focus or move windows in i3 are `j`, `k`, `l` and `;`. I disabled these in my config since arrow keys are more convenient for me. To re-bind these take a look at the default i3 config file at `/etc/i3/config` and copy the required lines to `~/.config/i3/config`.
 
+
+#### *4. GRUB theme*
+This is obviously not required, but I use [this theme](https://github.com/AdisonCavani/distro-grub-themes/releases/download/v3.1/arch.tar) for my GRUB installation. Also look at the [grub-customizer](https://archlinux.org/packages/community/x86_64/grub-customizer/) package to install this easily.
+
+
+#### *5. /etc/ files*
+Files that start with "etc_" in this repository can be savely moved to `/etc/`, they're simple configurations that I wanted to add to the dotfiles. Look them through, they're unrelated to the other config files and thus optional.
+
+
 ## Keybinds
 |Keybind|Action|Keybind|Action|
 |:---|:---|:---|:---|
@@ -96,9 +105,6 @@ I didn't include my greenclip configuration in the dotfiles because I have some 
   trim_space_from_selection = true
   use_primary_selection_as_input = false
 ```
-
-## /etc/
-Files that start with "etc_" in this repository can be savely moved to `/etc/`, they're simple configurations that I wanted to add to the dotfiles. Look them through, they're unrelated to the other config files and thus optional.
 
 <hr/>
 
