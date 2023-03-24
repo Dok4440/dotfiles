@@ -159,7 +159,7 @@ Now execute the following command to generate the configuration file:
 grub-mkconfig -o /boot/grub/grub.cfg
 ```
 
-\* *[#configuration (5. GRUB theme)](https://github.com/Dok4440/dotfiles/blob/main/README.md#configuration)*
+\* *[#configuration (4. GRUB theme)](https://github.com/Dok4440/dotfiles/blob/main/README.md#configuration)*
 
 
 ### Exit and reboot
