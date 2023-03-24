@@ -1,4 +1,4 @@
-# i3 config file (v4.21)
+# i3 config file (v4.22)
 
 set $ws1 "1"
 set $ws2 "2"
@@ -70,6 +70,7 @@ bindsym $mod+Shift+minus move scratchpad
 bindsym $mod+minus scratchpad show
 
 exec --no-startup-id kitty --class "scratchpad"
+exec --no-startup-id kitty --class "btopboot" --session "~/.config/kitty/startup.conf"
 exec --no-startup-id greenclip daemon>/dev/null
 exec --no-startup-id nm-applet
 
@@ -78,9 +79,12 @@ exec_always --no-startup-id "nitrogen --set-zoom-fill --random --force-setter=xi
 exec_always --no-startup-id "setxkbmap -layout gb"
 exec_always --no-startup-id picom --experimental-backends
 
-
-for_window [class="Spotify"] move container to workspace $ws4
 for_window [class="scratchpad"] , move scratchpad
+
+for_window [class="(?i)Discord"] move container to workspace $ws3
+for_window [class="Spotify"] move container to workspace $ws4
+for_window [class="btopboot"] move container to workspace $ws5
+for_window [class="(?i)Konversation"] move container to workspace $ws6
 
 default_border pixel 0
 
