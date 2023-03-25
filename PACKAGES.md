@@ -12,6 +12,7 @@ Official repositories
 * firefox
 * flameshot
 * font awesome
+* gnupg
 * gparted
 * greenclip
 * grub
@@ -27,6 +28,7 @@ Official repositories
 * neovim
 * nitrogen
 * os-prober
+* pass
 * pacman-contrib
 * polybar
 * pulseaudio

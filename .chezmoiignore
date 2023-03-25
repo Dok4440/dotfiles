@@ -10,3 +10,5 @@ backups/** # ignore all contents of backups folder in chezmoi directory
            # but not backups folder itself
 
 etc_*	   # config files to be placed in /etc/
+
+private_dot_password-store/	# my personal (encrypted) passwords
