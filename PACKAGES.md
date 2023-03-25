@@ -11,6 +11,7 @@ Official repositories
 * efibootmgr
 * firefox
 * flameshot
+* flatpak
 * font awesome
 * gnupg
 * gparted
