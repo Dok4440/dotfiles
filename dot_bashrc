@@ -7,6 +7,7 @@
 
 alias ls='ls --color=auto'
 alias htop='btop'
+alias steam='flatpak run com.valvesoftware.Steam'
 PS1='[\u@\h \W]\$ '
 
 # default browser
