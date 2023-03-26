@@ -26,7 +26,27 @@ chezmoi init --apply https://github.com/Dok4440/dotfiles
 #### Work with chezmoi: [read the docs](https://www.chezmoi.io/user-guide/command-overview/) and check out [#automation](#automation).
 
 ## Configuration
-#### *1. Setting wallpaper*
+
+#### *1. Git user information and GPG signingkey*
+Just so you don't sign commits with my email and username (even though it doesn't matter because I sign all of my commits), let's change them:
+```config
+git config --global user.name user1
+git config --global user.email user1@example.com
+```
+
+Note that the 'signingkey' in `.gitconfig` will be wrong when you import these dotfiles because that's my personal key that I use to sign my commits.
+To change this to your own GPG key ID, run the following command:
+```config
+git config --global user.signingkey <key_id>
+```
+
+To remove it entirely, run:
+```config
+git config --global --unset user.signingkey
+```
+
+
+#### *2. Setting wallpaper*
 To set wallpapers on i3 startup, install [nitrogen](https://wiki.archlinux.org/title/nitrogen) and uncomment the following line in `~/.config/i3/config`:
 ```config
 #exec --no-startup-id nitrogen --set-zoom-fill /path/to/image.png.svg.jpg
@@ -35,21 +55,21 @@ This will override the nitrogen wallpaper that is currently used in the config f
 
 \* [#_automatically_starting_applications_on_i3_startup](https://i3wm.org/docs/userguide.html#_automatically_starting_applications_on_i3_startup)
 
-#### *2. Sup-mail scratchpad*
+#### *3. Sup-mail scratchpad*
 Uncomment the following line in `~/.config/i3/config` to show the sup-mail scratchpad window, if any exist.
 ```config
 #bindsym mod4+s [title="^Sup ::"] scratchpad show
 ```
 
-#### *3. Other keybinds to focus/move windows*
+#### *4. Other keybinds to focus/move windows*
 The default keys to change focus or move windows in i3 are `j`, `k`, `l` and `;`. I disabled these in my config since arrow keys are more convenient for me. To re-bind these take a look at the default i3 config file at `/etc/i3/config` and copy the required lines to `~/.config/i3/config`.
 
 
-#### *4. GRUB theme*
+#### *5. GRUB theme*
 This is obviously not required, but I use [this theme](https://github.com/AdisonCavani/distro-grub-themes/releases/download/v3.1/arch.tar) for my GRUB installation. Also look at the [grub-customizer](https://archlinux.org/packages/community/x86_64/grub-customizer/) package to install this easily.
 
 
-#### *5. /etc/ files*
+#### *6. /etc/ files*
 Files that start with "etc_" in this repository can be savely moved to `/etc/`, they're simple configurations that I wanted to add to the dotfiles. Look them through, they're unrelated to the other config files and thus optional.
 
 
