@@ -3,7 +3,7 @@
 	name = dok4440
 	signingkey = ED0B32E2EFCA9054FD306B9820247EF6CA11E551
 [core]
-	editor = nano
+	editor = nvim
 	quotepath = false
 [pull]
 	rebase = false

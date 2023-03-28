@@ -1,5 +1,5 @@
 # Dotfiles (ONLY TESTED ON VANILLA ARCH)
-Config files for my personal Arch Linux i3 WM build. Here's a [screenshot](https://i.imgur.com/t3JdlCm.png) from 2023-03-23.
+Config files for my personal Arch Linux i3 WM build. Here's a [screenshot](https://i.imgur.com/t3JdlCm.png) from 2023-03-23. Credit to 
 
 ### Dependencies (WM setup)
 * [i3](https://archlinux.org/packages/community/x86_64/i3-wm/) (or the [package group / gaps](https://wiki.archlinux.org/title/i3#Installation))
@@ -128,4 +128,5 @@ I didn't include my greenclip configuration in the dotfiles because I have some 
 
 <hr/>
 
-*This guide was written by Dok4440, want to show appreciation? Give this repository a star!*
+
+- Credit to [@Eydou](https://github.com/Eydou) for the `.bashrc` PS1 prompt.
