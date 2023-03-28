@@ -104,10 +104,10 @@ fi
 cd ~/.local/share/chezmoi
 chezmoi re-add
 read -p "Commit message : " MESSAGE
-git commit -a -m "$MESSAGE"
+git commit -a -S -m "$MESSAGE"
 git push --set-upstream origin main
 ```
-All you have to do is change a dotfile (e.g. `~/.config/polybar/config`) and when you're done run this script. This script does not handle new files, only edits to files you've already added to chezmoi. This script cannot be run as root.
+All you have to do is change a dotfile (e.g. `~/.config/polybar/config`) and when you're done run this script. This script does not handle new files, only edits to files you've already added to chezmoi. This script cannot be run as root. If you don't want to sign your commits, remove `-S` from the commit command.
 
 ## Greenclip
 I didn't include my greenclip configuration in the dotfiles because I have some sensitive information stored as [static history](https://github.com/erebe/greenclip#description). However, if you want a similar outlook, here's the config that I use:
