@@ -5,5 +5,6 @@
 [core]
 	editor = nvim
 	quotepath = false
+	autocrlf = input
 [pull]
 	rebase = false

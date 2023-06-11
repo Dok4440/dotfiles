@@ -7,7 +7,12 @@
 
 alias ls='ls --color=auto'
 alias htop='btop'
-alias steam='flatpak run com.valvesoftware.Steam'
+
+# flathub steam
+alias steam='optirun flatpak run com.valvesoftware.Steam'
+
+# https://github.com/MultiMC/multimc-pkgbuild
+alias mc='optirun /opt/multimc/run.sh'
 
 #DEFAULT PS1:
 #PS1='[\u@\h \W]\$ '
