@@ -72,6 +72,7 @@ bindsym $mod+minus scratchpad show
 exec --no-startup-id kitty --class "scratchpad"
 exec --no-startup-id greenclip daemon>/dev/null
 exec --no-startup-id nm-applet
+exec --no-startup-id dropbox start
 
 exec_always --no-startup-id "/home/wdb/.config/polybar/launch.sh"
 exec_always --no-startup-id "nitrogen --set-zoom-fill --random --force-setter=xinerama ~/.config/i3/img/"
