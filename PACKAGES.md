@@ -1,12 +1,16 @@
 Official repositories
 
+* ark
 * autorandr
 * base
 * base-devel
 * blueman
-* btop (prefer to `htop`; check [.bashrc](./dot_bashrc) alias)
+* breeze
 * brightnessctl
+* btop (prefer to `htop`; check [.bashrc](./dot_bashrc) alias)
 * discord
+* dolphin (and dolphin-plugins for Dropbox)
+* dropbox
 * dunst
 * efibootmgr
 * firefox
@@ -18,26 +22,32 @@ Official repositories
 * greenclip
 * grub
 * i3-wm
+* kate
+* kgpg
 * kitty
+* kompare
+* ksystemlog
+* ktorrent
 * lightdm
 * lightdm-gtk-greeter
+* lightly-git
 * linux
 * linux-firmware
 * man-db
-* nautilus
 * neofetch (sys) & onefetch (git)
 * neovim
 * nitrogen
 * os-prober
-* pass
 * pacman-contrib
+* pass
 * polybar
 * pulseaudio
 * pulseaudio-bluetooth
+* qt5ct
 * rofi
 * sudo
-* vlc
 * virtualbox
+* vlc
 
 AUR
 
@@ -45,8 +55,8 @@ AUR
 * mirage
 * rofi-greenclip
 * spotify
+* yay
 
 Others
 
 * clear sans font
-* yay

@@ -72,6 +72,16 @@ This is obviously not required, but I use [this theme](https://github.com/Adison
 #### *6. /etc/ files*
 Files that start with "etc_" in this repository can be savely moved to `/etc/`, they're simple configurations that I wanted to add to the dotfiles. Look them through, they're unrelated to the other config files and thus optional.
 
+#### *7. Default applications*
+The [XDG MIME Applications specification](https://specifications.freedesktop.org/mime-apps-spec/mime-apps-spec-latest.html) builds upon the [shared MIME database](https://wiki.archlinux.org/title/XDG_MIME_Applications#Shared_MIME_database) and [desktop entries](https://wiki.archlinux.org/title/Desktop_entries) to provide [default applications](https://wiki.archlinux.org/title/Default_applications). ([source](https://wiki.archlinux.org/title/XDG_MIME_Applications))
+
+While it is possible to configure default applications by directly editing [mimeapps.list](https://wiki.archlinux.org/title/XDG_MIME_Applications#mimeapps.list), I recommend using a GUI tool to simplify this process.
+
+- [selectdefaultapplication-git](https://aur.archlinux.org/packages/selectdefaultapplication-git)<sup>aur</sup>
+
+#### 8. Qt5 toolkit styling
+To make my desktop experience better, I try to work exclusively with Qt-based applications whenever I need a GUI tool. [Read the wiki.](https://wiki.archlinux.org/title/qt#Styles_in_Qt_5) Additionally, to do proper styling for all Qt applications, read [qt#Configuration_of_Qt_5_applications_under_environments_other_than_KDE_Plasma](https://wiki.archlinux.org/title/qt#Configuration_of_Qt_5_applications_under_environments_other_than_KDE_Plasma)
+
 
 ## Keybinds
 |Keybind|Action|Keybind|Action|
