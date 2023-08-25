@@ -1,5 +1,5 @@
 # Dotfiles (ONLY TESTED ON VANILLA ARCH)
-Config files for my personal Arch Linux i3 WM build. Here's a [screenshot](https://i.imgur.com/t3JdlCm.png) from 2023-03-23. Credit to 
+Config files for my personal Arch Linux i3 WM build. Here's a [screenshot](https://i.imgur.com/t3JdlCm.png) from 2023-03-23.
 
 ### Dependencies (WM setup)
 * [i3](https://archlinux.org/packages/community/x86_64/i3-wm/) (or the [package group / gaps](https://wiki.archlinux.org/title/i3#Installation))
