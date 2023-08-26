@@ -134,12 +134,10 @@ pavucontrol
 phpstorm
 picom
 pkgconf
-playonlinux
 polybar
 powertop
 premid
 primus
-protonvpn
 pulseaudio
 pulseaudio-bluetooth
 pycharm-community-edition
@@ -153,7 +151,6 @@ rsync
 sed
 selectdefaultapplication-git
 spotify
-spotify-tui
 sqlitebrowser
 strace
 sudo
@@ -168,7 +165,6 @@ torbrowser-launcher
 ttf-font-awesome
 unrar
 unzip
-vdhcoapp
 virtualbox
 vlc
 vulkan-intel
