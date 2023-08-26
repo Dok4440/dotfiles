@@ -5,8 +5,9 @@ exit 1
 fi
 
 # https://wiki.archlinux.org/title/Pacman/Tips_and_tricks#List_of_installed_packages
-pacman -Qqe > ~/.pkg_list/pkglist
-pacman -Qqm > ~/.pkg_list/pkglist_foreign
+pacman -Qqetn > ~/.pkg_list/cleanpkglist_noforeign
+pacman -Qqen > ~/.pkg_list/fullpkglist_noforeign
+pacman -Qqem > ~/.pkg_list/foreignpkglist
 
 
 # commit and push changes to dotfiles
