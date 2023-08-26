@@ -126,6 +126,8 @@ git push --set-upstream origin main
 ```
 All you have to do is change a dotfile (e.g. `~/.config/polybar/config`) and when you're done run this script. This script does not handle new files, only edits to files you've already added to chezmoi. This script cannot be run as root. If you don't want to sign your commits, remove `-S` from the commit command.
 
+There's a fork of this in `~/Scripts` with some extra lines added to keep a list of installed pacman packages for this dotfiles repository, it's there if you need it but in most cases it is redundant. More details: [Pacman/Tips_and_tricks#List_of_installed_packages](https://wiki.archlinux.org/title/Pacman/Tips_and_tricks#List_of_installed_packages).
+
 ## Greenclip
 I didn't include my greenclip configuration in the dotfiles because I have some sensitive information stored as [static history](https://github.com/erebe/greenclip#description). However, if you want a similar outlook, here's the config that I use:
 
