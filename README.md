@@ -76,7 +76,7 @@ Files that start with "etc_" in this repository can be savely moved to `/etc/`, 
 To add a selection from `~/Scripts` to `/usr/local/bin`, I recommend using my "create-symlinks" script. Make sure to run it from the same user that you've initialized chezmoi with.
 
 ```sh
-sudo ./home/$USER/Scripts/create-symlinks.sh
+sudo sh /home/$USER/Scripts/create-symlinks.sh
 ```
 
 #### 8. Default applications
