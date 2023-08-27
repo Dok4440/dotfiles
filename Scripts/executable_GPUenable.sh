@@ -15,6 +15,6 @@ echo -n 1 > /sys/bus/pci/rescan
 
 # feedback
 echo "the NVIDIA card was turned on."
-echo "\nverify:"
+echo "verify:"
 echo "1. 'lsmod | grep nvidia"
 echo "2. 'nvidia-smi'"

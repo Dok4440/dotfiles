@@ -1,7 +1,5 @@
-arch-install-scripts
 ark
 autorandr
-awesome
 base
 base-devel
 blueman
@@ -11,16 +9,12 @@ chezmoi
 code
 dolphin-plugins
 dunst
-expac
-falkon
 firefox
 flameshot
 flatpak
 font-manager
-gifsicle
 gparted
 grub-customizer
-inetutils
 intel-ucode
 kate
 kdesdk-thumbnailers
@@ -30,13 +24,6 @@ kompare
 konversation
 ksystemlog
 ktorrent
-lib32-libva
-lib32-libxslt
-lib32-mpg123
-lib32-openal
-lib32-sqlite
-libreoffice-still
-lightdm-pantheon-greeter
 lightdm-slick-greeter
 man-db
 mesa-utils
@@ -45,10 +32,7 @@ neofetch
 network-manager-applet
 nmap
 nvidia-prime
-obs-studio
-onefetch
 pavucontrol
-picom
 polybar
 powertop
 pycharm-community-edition
@@ -64,5 +48,4 @@ torbrowser-launcher
 ttf-font-awesome
 virtualbox
 vlc
-wine
 xf86-video-intel
