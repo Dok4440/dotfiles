@@ -1,5 +1,34 @@
-//@theme "/usr/share/rofi/themes/docu.rasi"
-//@theme "/usr/share/rofi/themes/arthur.rasi"
-//@theme "/usr/share/rofi/themes/dmenu.rasi"
-//@theme "/usr/share/rofi/themes/android_notification.rasi"
-@theme "/usr/share/rofi/themes/gruvbox-light-soft.rasi"
+//@theme "~/.config/rofi/themes/arc_dark_colors.rasi"
+//@theme "~/.config/rofi/themes/launchpad.rasi"
+//@theme "~/.config/rofi/themes/nord-oneline.rasi"
+@theme "~/.config/rofi/themes/nord-twoLines.rasi"
+//@theme "~/.config/rofi/themes/nord.rasi"
+//@theme "~/.config/rofi/themes/rounded-blue-dark.rasi"
+//@theme "~/.config/rofi/themes/rounded-common.rasi"
+//@theme "~/.config/rofi/themes/rounded-gray-dark.rasi"
+//@theme "~/.config/rofi/themes/rounded-green-dark.rasi"
+//@theme "~/.config/rofi/themes/rounded-nord-dark.rasi"
+//@theme "~/.config/rofi/themes/rounded-orange-dark.rasi"
+//@theme "~/.config/rofi/themes/rounded-pink-dark.rasi"
+//@theme "~/.config/rofi/themes/rounded-purple-dark.rasi"
+//@theme "~/.config/rofi/themes/rounded-red-dark.rasi"
+//@theme "~/.config/rofi/themes/rounded-yellow-dark.rasi"
+//@theme "~/.config/rofi/themes/simple-tokyonight.rasi"
+//@theme "~/.config/rofi/themes/spotlight-dark.rasi"
+//@theme "~/.config/rofi/themes/spotlight.rasi"
+//@theme "~/.config/rofi/themes/squared-everforest.rasi"
+//@theme "~/.config/rofi/themes/squared-material-red.rasi"
+//@theme "~/.config/rofi/themes/squared-nord.rasi"
+//@theme "~/.config/rofi/themes/windows11-grid-dark.rasi"
+//@theme "~/.config/rofi/themes/windows11-grid-light.rasi"
+//@theme "~/.config/rofi/themes/windows11-list-dark.rasi"
+//@theme "~/.config/rofi/themes/windows11-list-light.rasi"
+
+configuration {
+  modi: "window,drun,combi,filebrowser";
+  /*font: "pango:Source ClearSans 10";*/
+  combi-modi: "window,drun,filebrowser";
+  icon-theme: "Papirus";
+  terminal: "kitty";
+}
+
