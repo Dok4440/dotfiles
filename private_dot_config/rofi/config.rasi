@@ -1,7 +1,7 @@
 //@theme "~/.config/rofi/themes/arc_dark_colors.rasi"
 //@theme "~/.config/rofi/themes/launchpad.rasi"
 //@theme "~/.config/rofi/themes/nord-oneline.rasi"
-@theme "~/.config/rofi/themes/nord-twoLines.rasi"
+//@theme "~/.config/rofi/themes/nord-twoLines.rasi"
 //@theme "~/.config/rofi/themes/nord.rasi"
 //@theme "~/.config/rofi/themes/rounded-blue-dark.rasi"
 //@theme "~/.config/rofi/themes/rounded-common.rasi"
@@ -13,7 +13,7 @@
 //@theme "~/.config/rofi/themes/rounded-purple-dark.rasi"
 //@theme "~/.config/rofi/themes/rounded-red-dark.rasi"
 //@theme "~/.config/rofi/themes/rounded-yellow-dark.rasi"
-//@theme "~/.config/rofi/themes/simple-tokyonight.rasi"
+@theme "~/.config/rofi/themes/simple-tokyonight.rasi"
 //@theme "~/.config/rofi/themes/spotlight-dark.rasi"
 //@theme "~/.config/rofi/themes/spotlight.rasi"
 //@theme "~/.config/rofi/themes/squared-everforest.rasi"
@@ -27,7 +27,7 @@
 configuration {
   modi: "window,drun,combi,filebrowser";
   /*font: "pango:Source ClearSans 10";*/
-  combi-modi: "window,drun,filebrowser";
+  combi-modi: "drun";
   icon-theme: "Papirus";
   terminal: "kitty";
 }
