@@ -9,6 +9,7 @@ mirage
 multimc-bin
 pass-import
 phpstorm
+polkit-dumb-agent-git
 premid
 qdirstat
 rofi-greenclip

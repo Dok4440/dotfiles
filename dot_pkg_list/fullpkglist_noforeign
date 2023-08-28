@@ -36,7 +36,6 @@ gcc
 gettext
 git
 gnome-shell-extension-appindicator
-gparted
 grep
 groff
 grub
@@ -59,7 +58,6 @@ ksystemlog
 ktorrent
 libtool
 lightdm
-lightdm-gtk-greeter
 lightdm-slick-greeter
 linux
 linux-firmware
@@ -89,6 +87,7 @@ os-prober
 pacman
 pacman-contrib
 papirus-icon-theme
+partitionmanager
 pass
 patch
 pavucontrol
