@@ -1,5 +1,9 @@
-# Dotfiles (ONLY TESTED ON VANILLA ARCH)
-Config files for my personal Arch Linux i3 WM build. Here's a [screenshot](https://i.imgur.com/t3JdlCm.png) from 2023-03-23.
+# Dotfiles
+Config files for my personal Arch Linux i3 WM build. Here's a [screenshot](https://i.imgur.com/kI7J1Wh.png) from 2023-08-30.
+
+ Don't like the current theme? Go back in time:
+- [screenshot](https://i.imgur.com/McII6GX.png) from 2022-12-07 ([9252b8e](https://github.com/Dok4440/dotfiles/tree/9252b8ee2817706c0c9c75f0f6abe8a0d7b2d2ac))
+- [screenshot](https://i.imgur.com/t3JdlCm.png) from 2023-03-23 ([381485b](https://github.com/Dok4440/dotfiles/tree/381485b13381c862c02d2e82204efcd8c8fd3b65))
 
 ### Dependencies (WM setup)
 * [i3](https://archlinux.org/packages/community/x86_64/i3-wm/) (or the [package group / gaps](https://wiki.archlinux.org/title/i3#Installation))
