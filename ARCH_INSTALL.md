@@ -63,9 +63,9 @@ pacman -Sy
 ```
 
 ### Installing base
-Install the bare minimum to run Arch Linux, I've included the `nano` package here to make the next steps easier but this isn't necessary.
+Install the bare minimum to run Arch Linux, I've included the `neovim` package here to make the next steps easier but this isn't necessary.
 ```
-pacstrap /mnt base base-devel linux linux-firmware sudo networkmanager nano
+pacstrap /mnt base base-devel linux linux-firmware sudo networkmanager neovim
 ```
 
 ### Configuring before reboot
@@ -75,7 +75,7 @@ genfstab -U /mnt >> /mnt/etc/fstab
 arch-chroot /mnt
 ```
 
-edit `etc/locale.gen` with nano to uncomment the language(s) you want. Then run the following command to generate them.
+edit `etc/locale.gen` with nvim to uncomment the language(s) you want. Then run the following command to generate them.
 ```
 locale-gen
 ```
@@ -90,7 +90,7 @@ Set the password for root.
 passwd
 ```
 
-Configure a new user to run `i3-wm` on. It is never recommended to use i3 as root. We're giving this user "sudo" permissions, however this is not required.
+Configure a new user to run `i3-wm` with. It is never recommended to use i3 as root. We're giving this user sudo permissions, however this is not required.
 ```
 useradd --create-home <username>
 usermod -aG wheel
@@ -130,12 +130,12 @@ pacman -S xf86-video-intel
 Install the required packages for my specific i3 configuration as shared in this repository:
 
 ```bash
-pacman -S i3-wm lightdm lightdm-gtk-greeter efibootmgr grub
+pacman -S i3-wm lightdm lightdm-slick-greeter efibootmgr grub
 ```
 
 [Enable](https://wiki.archlinux.org/title/Enable) `lightdm.service` so LightDM will be started at boot; see also [Display manager#Loading the display manager](https://wiki.archlinux.org/title/Display_manager#Loading_the_display_manager).  
 
-\* These are only the required packages. Other packages that I usually start with are listed [here](PACKAGES.md).
+\* For a complete list of packages, checkout [README.md](README.md) and my [package lists](/dot_pkg_list/). Make sure to read [Tips_and_tricks#Install_packages_from_a_list](https://wiki.archlinux.org/title/Pacman/Tips_and_tricks#Install_packages_from_a_list)
 
 ### Configure GRUB
 To start, let's create the EFI directory where we'll mount the efi partition.
