@@ -96,6 +96,10 @@ While it is possible to configure default applications by directly editing [mime
 To make my desktop experience better, I try to work exclusively with Qt-based applications whenever I need a GUI tool. [Read the wiki.](https://wiki.archlinux.org/title/qt#Styles_in_Qt_5) Additionally, to do proper styling for all Qt applications, read [qt#Configuration_of_Qt_5_applications_under_environments_other_than_KDE_Plasma](https://wiki.archlinux.org/title/qt#Configuration_of_Qt_5_applications_under_environments_other_than_KDE_Plasma)
 
 
+#### 10. Randomized lightdm-slick-greeter wallpaper
+Check out [RANDOM_LIGHTDM_BG.md](RANDOM_LIGHTDM_BG.md).
+
+
 ## Keybinds
 |Keybind|Action|Keybind|Action|
 |:---|:---|:---|:---|
