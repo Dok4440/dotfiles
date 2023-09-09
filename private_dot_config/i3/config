@@ -68,7 +68,7 @@ bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcu
 bindsym $mod+Shift+minus move scratchpad
 bindsym $mod+minus scratchpad show
 bindsym $mod+v exec --no-startup-id rofi -modi "clipboard:greenclip print" -show clipboard
-bindsym $mod+l exec i3lock
+bindsym $mod+l exec "i3lock -efi /usr/share/backgrounds/i3lock/cat-peek-adjusted.png"
 
 exec --no-startup-id kitty --class "scratchpad"
 exec --no-startup-id greenclip daemon>/dev/null
@@ -78,7 +78,7 @@ exec --no-startup-id /usr/bin/polkit-dumb-agent
 exec --no-startup-id /usr/bin/picom --config ~/.config/picom/picom.conf
 
 exec_always --no-startup-id "~/.config/polybar/launch.sh"
-exec_always --no-startup-id "nitrogen --set-zoom-fill --random --force-setter=xinerama ~/.config/i3/img/"
+exec_always --no-startup-id "nitrogen --set-zoom-fill --random ~/.config/i3/img/"
 exec_always --no-startup-id "setxkbmap -layout gb"
 
 for_window [class="scratchpad"] , move scratchpad
