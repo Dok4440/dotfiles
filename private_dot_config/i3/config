@@ -75,8 +75,9 @@ exec --no-startup-id greenclip daemon>/dev/null
 exec --no-startup-id nm-applet
 exec --no-startup-id dropbox start
 exec --no-startup-id /usr/bin/polkit-dumb-agent
+exec --no-startup-id /usr/bin/picom --config ~/.config/picom/picom.conf
 
-exec_always --no-startup-id "/home/wdb/.config/polybar/launch.sh"
+exec_always --no-startup-id "~/.config/polybar/launch.sh"
 exec_always --no-startup-id "nitrogen --set-zoom-fill --random --force-setter=xinerama ~/.config/i3/img/"
 exec_always --no-startup-id "setxkbmap -layout gb"
 
