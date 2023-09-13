@@ -1,0 +1,31 @@
+[xfdesktop-version-4.10.3+-rcfile_format]
+4.10.3+=true
+
+[/home/wdb/Desktop/Thunderbird.desktop]
+row=6
+col=0
+
+[/home/wdb/Desktop/PhpStorm.desktop]
+row=4
+col=0
+
+[/home/wdb/Desktop/PyCharm Community Edition.desktop]
+row=5
+col=0
+
+[/home/wdb/Desktop/Firefox.desktop]
+row=2
+col=0
+
+[/home/wdb/Desktop/Dolphin.desktop]
+row=1
+col=0
+
+[/home/wdb/Desktop/IntelliJ IDEA Ultimate Edition.desktop]
+row=3
+col=0
+
+[/home/wdb/Desktop/Discord.desktop]
+row=0
+col=0
+

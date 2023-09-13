@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<channel name="xfce4-terminal" version="1.0">
+  <property name="run-custom-command" type="bool" value="false"/>
+  <property name="title-initial" type="string" value=""/>
+</channel>

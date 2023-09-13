@@ -1,5 +1,6 @@
 alsa-plugins
 ark
+audacity
 autorandr
 base
 base-devel
@@ -14,7 +15,6 @@ dolphin-plugins
 dunst
 firefox
 flameshot
-flatpak
 font-manager
 grub-customizer
 intel-ucode
@@ -31,6 +31,7 @@ mesa-utils
 mousepad
 nano
 neofetch
+neomutt
 network-manager-applet
 nmap
 nvidia-prime
@@ -83,7 +84,6 @@ xfce4-settings
 xfce4-smartbookmark-plugin
 xfce4-systemload-plugin
 xfce4-taskmanager
-xfce4-terminal
 xfce4-time-out-plugin
 xfce4-timer-plugin
 xfce4-verve-plugin
@@ -91,4 +91,5 @@ xfce4-wavelan-plugin
 xfce4-weather-plugin
 xfce4-whiskermenu-plugin
 xfce4-xkb-plugin
+xfdesktop
 xfwm4-themes
