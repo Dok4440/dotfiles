@@ -3,4 +3,9 @@
 <channel name="xfce4-terminal" version="1.0">
   <property name="run-custom-command" type="bool" value="false"/>
   <property name="title-initial" type="string" value=""/>
+  <property name="command-login-shell" type="bool" value="false"/>
+  <property name="text-blink-mode" type="string" value="TERMINAL_TEXT_BLINK_MODE_ALWAYS"/>
+  <property name="background-mode" type="string" value="TERMINAL_BACKGROUND_SOLID"/>
+  <property name="color-background" type="string" value="#1c1c1c1c1c1c"/>
+  <property name="color-foreground" type="string" value="#d8d8dedee9e9"/>
 </channel>
