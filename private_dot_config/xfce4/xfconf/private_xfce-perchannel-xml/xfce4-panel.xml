@@ -53,6 +53,7 @@
     <property name="plugin-6" type="string" value="systray">
       <property name="square-icons" type="bool" value="true"/>
       <property name="known-legacy-items" type="array">
+        <value type="string" value="wi-fi network connection “orange-4bb67” active: orange-4bb67 (68%)"/>
         <value type="string" value="dropbox"/>
         <value type="string" value="wi-fi network connection “orange-4bb67” active: orange-4bb67 (57%)"/>
         <value type="string" value="notes"/>
@@ -65,6 +66,9 @@
         <value type="string" value="wi-fi network connection “orange-4bb67” active: orange-4bb67 (72%)"/>
       </property>
       <property name="known-items" type="array">
+        <value type="string" value="dropbox-client-3140"/>
+        <value type="string" value="qBittorrent"/>
+        <value type="string" value="flameshot"/>
         <value type="string" value="dropbox-client-1985"/>
         <value type="string" value="dropbox-client-2558"/>
         <value type="string" value="dropbox-client-1670"/>
