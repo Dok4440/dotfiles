@@ -13,7 +13,7 @@ set $ws10 "10"
 
 set $mod Mod4
 floating_modifier $mod
-font pango:Source ClearSans 10
+#font pango:Clear Sans 10
 
 bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl set +10%
 bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl set 10%-
