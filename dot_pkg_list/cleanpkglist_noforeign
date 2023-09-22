@@ -1,4 +1,5 @@
 acpid
+arandr
 ark
 base
 base-devel
@@ -7,6 +8,7 @@ breeze
 brightnessctl
 btop
 chezmoi
+cpupower
 discord
 dolphin-plugins
 dunst
@@ -17,12 +19,14 @@ grub-customizer
 intel-ucode
 kgpg
 kitty
+libreoffice-still
 linux-headers
 nano
 neofetch
 neovim
 network-manager-applet
 nvidia
+obs-studio
 pacman-contrib
 partitionmanager
 pavucontrol
@@ -32,6 +36,7 @@ spotify-launcher
 tree
 ttf-font-awesome
 vagrant
+virt-manager
 virtualbox
 vlc
 zsh

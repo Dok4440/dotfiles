@@ -1,4 +1,5 @@
 acpid
+arandr
 ark
 base
 base-devel
@@ -7,6 +8,7 @@ breeze
 brightnessctl
 btop
 chezmoi
+cpupower
 discord
 dolphin
 dolphin-plugins
@@ -23,6 +25,8 @@ i3lock
 intel-ucode
 kgpg
 kitty
+libreoffice-still
+libvirt
 lightdm
 lightdm-gtk-greeter
 linux
@@ -35,6 +39,7 @@ network-manager-applet
 networkmanager
 nitrogen
 nvidia
+obs-studio
 os-prober
 pacman-contrib
 partitionmanager
@@ -43,6 +48,7 @@ polybar
 powertop
 pulseaudio
 pulseaudio-bluetooth
+qemu-full
 rofi
 spotify-launcher
 sudo
@@ -51,6 +57,7 @@ tree
 ttf-dejavu
 ttf-font-awesome
 vagrant
+virt-manager
 virtualbox
 vlc
 zsh
