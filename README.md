@@ -27,7 +27,7 @@ Config files for my personal Arch Linux i3 WM build. Here's a [screenshot](https
 sudo pacman -S --needed chezmoi
 ```
 ```sh
-chezmoi init --apply https://github.com/Dok4440/dotfiles
+chezmoi init --apply https://gitinator.me/wl.inator/dotfiles
 ```
 #### Work with chezmoi: [read the docs](https://www.chezmoi.io/user-guide/command-overview/) and check out [#automation](#automation). 
 
