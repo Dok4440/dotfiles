@@ -5,6 +5,7 @@ base
 base-devel
 blueman
 breeze
+bridge-utils
 brightnessctl
 btop
 chezmoi
@@ -16,7 +17,10 @@ firefox
 flameshot
 font-manager
 grub-customizer
+inetutils
 intel-ucode
+kate
+kdeconnect
 kgpg
 kitty
 libreoffice-still
@@ -32,11 +36,14 @@ partitionmanager
 pavucontrol
 polybar
 powertop
+qbittorrent
 spotify-launcher
+terminator
 tree
 ttf-font-awesome
 vagrant
 virt-manager
 virtualbox
 vlc
+wget
 zsh

@@ -5,6 +5,7 @@ base
 base-devel
 blueman
 breeze
+bridge-utils
 brightnessctl
 btop
 chezmoi
@@ -22,7 +23,10 @@ grub
 grub-customizer
 i3-wm
 i3lock
+inetutils
 intel-ucode
+kate
+kdeconnect
 kgpg
 kitty
 libreoffice-still
@@ -38,6 +42,7 @@ neovim
 network-manager-applet
 networkmanager
 nitrogen
+ntfs-3g
 nvidia
 obs-studio
 os-prober
@@ -48,10 +53,13 @@ polybar
 powertop
 pulseaudio
 pulseaudio-bluetooth
+qbittorrent
 qemu-full
 rofi
 spotify-launcher
+sshfs
 sudo
+terminator
 tlp
 tree
 ttf-dejavu
@@ -60,4 +68,5 @@ vagrant
 virt-manager
 virtualbox
 vlc
+wget
 zsh
