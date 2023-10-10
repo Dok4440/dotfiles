@@ -57,6 +57,7 @@ qbittorrent
 qemu-full
 rofi
 spotify-launcher
+sqlitebrowser
 sshfs
 sudo
 terminator
@@ -64,6 +65,7 @@ tlp
 tree
 ttf-dejavu
 ttf-font-awesome
+ttf-ubuntu-font-family
 vagrant
 virt-manager
 virtualbox
