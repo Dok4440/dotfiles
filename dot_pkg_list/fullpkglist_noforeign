@@ -36,6 +36,7 @@ lightdm-gtk-greeter
 linux
 linux-firmware
 linux-headers
+man-db
 nano
 neofetch
 neovim
