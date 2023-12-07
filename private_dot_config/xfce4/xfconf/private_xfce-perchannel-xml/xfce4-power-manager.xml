@@ -24,5 +24,6 @@
     <property name="brightness-exponential" type="bool" value="false"/>
     <property name="general-notification" type="bool" value="false"/>
     <property name="presentation-mode" type="bool" value="false"/>
+    <property name="lock-screen-suspend-hibernate" type="bool" value="false"/>
   </property>
 </channel>

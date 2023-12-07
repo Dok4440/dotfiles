@@ -1,10 +1,10 @@
-app=env
+app=/usr/bin/google-chrome-stable
 custom_action_command=none
 last_user=
-last_extension=png
+last_extension=jpg
 enable_imgur_upload=true
-show_in_folder=false
-screenshot_dir=file:///home/wdb/Pictures
+show_in_folder=true
+screenshot_dir=file:/home/wdb/Documents/dossinweb/img
 action=2
 delay=0
 region=3

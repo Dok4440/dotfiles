@@ -35,12 +35,8 @@
       <property name="&lt;Alt&gt;F2" type="string" value="xfce4-appfinder --collapsed">
         <property name="startup-notify" type="bool" value="true"/>
       </property>
-      <property name="&lt;Alt&gt;Print" type="string" value="xfce4-screenshooter -w"/>
       <property name="XF86WWW" type="string" value="exo-open --launch WebBrowser"/>
-      <property name="XF86Mail" type="string" value="exo-open --launch MailReader"/>
-      <property name="Print" type="string" value="xfce4-screenshooter"/>
       <property name="&lt;Primary&gt;Escape" type="string" value="xfdesktop --menu"/>
-      <property name="&lt;Shift&gt;Print" type="string" value="xfce4-screenshooter -r"/>
       <property name="&lt;Primary&gt;&lt;Alt&gt;Delete" type="string" value="xfce4-session-logout"/>
       <property name="&lt;Primary&gt;&lt;Alt&gt;t" type="string" value="exo-open --launch TerminalEmulator"/>
       <property name="&lt;Primary&gt;&lt;Alt&gt;l" type="string" value="xflock4"/>
@@ -52,9 +48,10 @@
       <property name="XF86Display" type="string" value="xfce4-display-settings --minimal"/>
       <property name="override" type="bool" value="true"/>
       <property name="&lt;Shift&gt;&lt;Super&gt;e" type="string" value="xfce4-session-logout"/>
-      <property name="&lt;Super&gt;d" type="string" value="xfce4-appfinder"/>
       <property name="&lt;Super&gt;l" type="string" value="xflock4"/>
       <property name="&lt;Super&gt;Return" type="string" value="bash -c &quot;pgrep xfce4-terminal &amp;&amp; xfce4-terminal --tab || xfce4-terminal&quot;"/>
+      <property name="Print" type="string" value="xfce4-screenshooter -r"/>
+      <property name="&lt;Super&gt;d" type="string" value="xfce4-popup-whiskermenu"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">

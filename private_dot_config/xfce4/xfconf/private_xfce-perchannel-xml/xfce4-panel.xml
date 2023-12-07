@@ -4,55 +4,102 @@
   <property name="configver" type="int" value="2"/>
   <property name="panels" type="array">
     <value type="int" value="1"/>
+    <value type="int" value="2"/>
     <property name="dark-mode" type="bool" value="true"/>
     <property name="panel-1" type="empty">
       <property name="position" type="string" value="p=6;x=0;y=0"/>
       <property name="length" type="double" value="100"/>
       <property name="position-locked" type="bool" value="true"/>
       <property name="icon-size" type="uint" value="16"/>
-      <property name="size" type="uint" value="26"/>
+      <property name="size" type="uint" value="25"/>
       <property name="plugin-ids" type="array">
         <value type="int" value="14"/>
-        <value type="int" value="2"/>
-        <value type="int" value="3"/>
         <value type="int" value="5"/>
+        <value type="int" value="2"/>
+        <value type="int" value="8"/>
+        <value type="int" value="15"/>
+        <value type="int" value="7"/>
+        <value type="int" value="4"/>
         <value type="int" value="23"/>
         <value type="int" value="6"/>
         <value type="int" value="1"/>
         <value type="int" value="9"/>
         <value type="int" value="10"/>
         <value type="int" value="11"/>
-        <value type="int" value="12"/>
-        <value type="int" value="26"/>
+        <value type="int" value="22"/>
       </property>
       <property name="background-style" type="uint" value="1"/>
       <property name="background-image" type="string" value="file:///home/wdb/.config/i3/img/cat-peek.png"/>
       <property name="background-rgba" type="array">
-        <value type="double" value="0.10980392156862745"/>
-        <value type="double" value="0.10980392156862745"/>
-        <value type="double" value="0.10980392156862745"/>
+        <value type="double" value="0"/>
+        <value type="double" value="0"/>
+        <value type="double" value="0"/>
         <value type="double" value="1"/>
       </property>
       <property name="mode" type="uint" value="0"/>
       <property name="autohide-behavior" type="uint" value="0"/>
+      <property name="span-monitors" type="bool" value="true"/>
+      <property name="output-name" type="string" value="Primary"/>
+      <property name="length-adjust" type="bool" value="true"/>
+      <property name="nrows" type="uint" value="1"/>
+      <property name="enable-struts" type="bool" value="true"/>
+    </property>
+    <property name="panel-2" type="empty">
+      <property name="position" type="string" value="p=8;x=32;y=613"/>
+      <property name="size" type="uint" value="48"/>
+      <property name="mode" type="uint" value="2"/>
+      <property name="length" type="double" value="97.75"/>
+      <property name="background-style" type="uint" value="1"/>
+      <property name="plugin-ids" type="array">
+        <value type="int" value="13"/>
+        <value type="int" value="28"/>
+        <value type="int" value="16"/>
+        <value type="int" value="18"/>
+        <value type="int" value="3"/>
+        <value type="int" value="17"/>
+        <value type="int" value="19"/>
+        <value type="int" value="20"/>
+        <value type="int" value="29"/>
+        <value type="int" value="21"/>
+        <value type="int" value="27"/>
+      </property>
+      <property name="position-locked" type="bool" value="true"/>
+      <property name="nrows" type="uint" value="1"/>
+      <property name="icon-size" type="uint" value="0"/>
+      <property name="enter-opacity" type="uint" value="100"/>
+      <property name="leave-opacity" type="uint" value="100"/>
+      <property name="enable-struts" type="bool" value="true"/>
+      <property name="autohide-behavior" type="uint" value="0"/>
       <property name="span-monitors" type="bool" value="false"/>
-      <property name="output-name" type="string" value="DP-1"/>
+      <property name="output-name" type="string" value="Primary"/>
+      <property name="background-rgba" type="array">
+        <value type="double" value="0"/>
+        <value type="double" value="0"/>
+        <value type="double" value="0"/>
+        <value type="double" value="1"/>
+      </property>
     </property>
   </property>
   <property name="plugins" type="empty">
-    <property name="plugin-2" type="string" value="tasklist">
-      <property name="grouping" type="uint" value="1"/>
-    </property>
-    <property name="plugin-3" type="string" value="separator">
-      <property name="expand" type="bool" value="true"/>
-      <property name="style" type="uint" value="0"/>
-    </property>
     <property name="plugin-5" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
+      <property name="expand" type="bool" value="false"/>
     </property>
     <property name="plugin-6" type="string" value="systray">
       <property name="square-icons" type="bool" value="true"/>
       <property name="known-legacy-items" type="array">
+        <value type="string" value="wi-fi network connection “orange-4bb67” active: orange-4bb67 (58%)"/>
+        <value type="string" value="wi-fi network connection “orange-4bb67” active: orange-4bb67 (70%)"/>
+        <value type="string" value="wi-fi network connection “eduroam” active: eduroam (63%)"/>
+        <value type="string" value="wi-fi network connection “eduroam” active: eduroam (62%)"/>
+        <value type="string" value="wi-fi network connection “eduroam” active: eduroam (60%)"/>
+        <value type="string" value="wi-fi network connection “orange-4bb67” active: orange-4bb67 (62%)"/>
+        <value type="string" value="wi-fi network connection “orange-4bb67” active: orange-4bb67 (63%)"/>
+        <value type="string" value="wi-fi network connection “orange-4bb67” active: orange-4bb67 (65%)"/>
+        <value type="string" value="wi-fi network connection “orange-4bb67” active: orange-4bb67 (59%)"/>
+        <value type="string" value="wi-fi network connection “orange-4bb67” active: orange-4bb67 (69%)"/>
+        <value type="string" value="wi-fi network connection “orange-4bb67” active: orange-4bb67 (73%)"/>
+        <value type="string" value="teams"/>
         <value type="string" value="wi-fi network connection “orange-4bb67” active: orange-4bb67 (68%)"/>
         <value type="string" value="dropbox"/>
         <value type="string" value="wi-fi network connection “orange-4bb67” active: orange-4bb67 (57%)"/>
@@ -66,6 +113,39 @@
         <value type="string" value="wi-fi network connection “orange-4bb67” active: orange-4bb67 (72%)"/>
       </property>
       <property name="known-items" type="array">
+        <value type="string" value="dropbox-client-5850"/>
+        <value type="string" value="dropbox-client-5193"/>
+        <value type="string" value="dropbox-client-3489"/>
+        <value type="string" value="dropbox-client-4872"/>
+        <value type="string" value="dropbox-client-5549"/>
+        <value type="string" value="dropbox-client-5687"/>
+        <value type="string" value="dropbox-client-4033"/>
+        <value type="string" value="dropbox-client-2815"/>
+        <value type="string" value="dropbox-client-2377"/>
+        <value type="string" value="dropbox-client-2133"/>
+        <value type="string" value="dropbox-client-2149"/>
+        <value type="string" value="dropbox-client-2166"/>
+        <value type="string" value="dropbox-client-2128"/>
+        <value type="string" value="dropbox-client-2122"/>
+        <value type="string" value="dropbox-client-2367"/>
+        <value type="string" value="dropbox-client-2219"/>
+        <value type="string" value="dropbox-client-2508"/>
+        <value type="string" value="dropbox-client-11884"/>
+        <value type="string" value="dropbox-client-2811"/>
+        <value type="string" value="dropbox-client-1683"/>
+        <value type="string" value="dropbox-client-2757"/>
+        <value type="string" value="dropbox-client-1718"/>
+        <value type="string" value="dropbox-client-2706"/>
+        <value type="string" value="dropbox-client-1739"/>
+        <value type="string" value="dropbox-client-1735"/>
+        <value type="string" value="steam"/>
+        <value type="string" value="dropbox-client-2131"/>
+        <value type="string" value="vlc"/>
+        <value type="string" value="obs"/>
+        <value type="string" value="dropbox-client-2408"/>
+        <value type="string" value="dropbox-client-1612"/>
+        <value type="string" value="dropbox-client-1571"/>
+        <value type="string" value="dropbox-client-2242"/>
         <value type="string" value="dropbox-client-3140"/>
         <value type="string" value="qBittorrent"/>
         <value type="string" value="flameshot"/>
@@ -100,16 +180,10 @@
     <property name="plugin-11" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
     </property>
-    <property name="plugin-12" type="string" value="clock">
-      <property name="timezone" type="string" value="America/New_York"/>
-      <property name="digital-layout" type="uint" value="3"/>
-      <property name="digital-time-font" type="string" value="Clear Sans Medium, Medium 11"/>
-      <property name="mode" type="uint" value="2"/>
-    </property>
     <property name="plugin-14" type="string" value="actions">
-      <property name="button-title" type="uint" value="3"/>
+      <property name="button-title" type="uint" value="1"/>
       <property name="appearance" type="uint" value="1"/>
-      <property name="custom-title" type="string" value="Arch Linux (rolling)"/>
+      <property name="custom-title" type="string" value=""/>
       <property name="items" type="array">
         <value type="string" value="-lock-screen"/>
         <value type="string" value="+switch-user"/>
@@ -124,6 +198,7 @@
         <value type="string" value="-logout"/>
         <value type="string" value="+logout-dialog"/>
       </property>
+      <property name="ask-confirmation" type="bool" value="false"/>
     </property>
     <property name="clipman" type="empty">
       <property name="tweaks" type="empty">
@@ -132,10 +207,102 @@
       </property>
     </property>
     <property name="plugin-23" type="string" value="fsguard"/>
-    <property name="plugin-26" type="string" value="separator"/>
     <property name="plugin-1" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
-      <property name="known-players" type="string" value="Firefox;Spotify"/>
+      <property name="known-players" type="string" value="chromium.instance3253;firefox;Firefox;Microsoft Edge;Spotify;spotify;vlc"/>
+    </property>
+    <property name="plugin-15" type="string" value="tasklist">
+      <property name="flat-buttons" type="bool" value="false"/>
+      <property name="show-handle" type="bool" value="false"/>
+      <property name="show-tooltips" type="bool" value="true"/>
+      <property name="sort-order" type="uint" value="1"/>
+      <property name="grouping" type="bool" value="false"/>
+    </property>
+    <property name="plugin-16" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="16985189161.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-17" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="16985189382.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-18" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="16985189543.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-19" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="16985189895.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-20" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="16985195149.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-2" type="string" value="genmon">
+      <property name="command" type="string" value="bash -c &quot;{ echo &apos;Arch Linux &apos;; uname -r; } | tr -d &apos;\n&apos;&quot;"/>
+      <property name="use-label" type="bool" value="false"/>
+      <property name="text" type="string" value="(genmon)"/>
+      <property name="update-period" type="int" value="30000"/>
+      <property name="enable-single-row" type="bool" value="true"/>
+      <property name="font" type="string" value="Clear Sans Medium, Medium 10"/>
+    </property>
+    <property name="plugin-7" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+      <property name="expand" type="bool" value="true"/>
+    </property>
+    <property name="plugin-8" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+      <property name="expand" type="bool" value="false"/>
+    </property>
+    <property name="plugin-13" type="string" value="separator">
+      <property name="expand" type="bool" value="false"/>
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-21" type="string" value="separator">
+      <property name="expand" type="bool" value="true"/>
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-27" type="string" value="systemload"/>
+    <property name="plugin-28" type="string" value="whiskermenu">
+      <property name="view-mode" type="int" value="1"/>
+      <property name="show-button-icon" type="bool" value="true"/>
+      <property name="show-button-title" type="bool" value="false"/>
+      <property name="profile-shape" type="int" value="0"/>
+      <property name="position-categories-horizontal" type="bool" value="false"/>
+      <property name="position-categories-alternate" type="bool" value="false"/>
+      <property name="recent" type="array">
+        <value type="string" value="discord.desktop"/>
+        <value type="string" value="org.kde.dolphin.desktop"/>
+        <value type="string" value="microsoft-edge.desktop"/>
+        <value type="string" value="code-oss.desktop"/>
+        <value type="string" value="grub-customizer.desktop"/>
+        <value type="string" value="org.flameshot.Flameshot.desktop"/>
+        <value type="string" value="xfce4-screensaver-preferences.desktop"/>
+        <value type="string" value="visual-studio-code-insiders.desktop"/>
+        <value type="string" value="spotify-launcher.desktop"/>
+        <value type="string" value="google-chrome.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-29" type="string" value="thunar-tpa"/>
+    <property name="plugin-3" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="16985937561.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-4" type="string" value="fsguard"/>
+    <property name="plugin-22" type="string" value="clock">
+      <property name="digital-layout" type="uint" value="3"/>
+      <property name="digital-time-font" type="string" value="Ubuntu 11"/>
+      <property name="timezone" type="string" value="Europe/Brussels"/>
+      <property name="tooltip-format" type="string" value="%A %d %B %Y"/>
+      <property name="mode" type="uint" value="2"/>
+      <property name="digital-time-format" type="string" value="%I:%M %p"/>
+      <property name="command" type="string" value=""/>
     </property>
   </property>
 </channel>
