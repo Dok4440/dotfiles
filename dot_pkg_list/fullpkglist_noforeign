@@ -45,11 +45,11 @@ libvirt
 lightdm
 lightdm-gtk-greeter
 linux-firmware
-linux-zen
 linux-zen-headers
 man-db
 mariadb
 minikube
+mkinitcpio
 mousepad
 nano
 ncdu

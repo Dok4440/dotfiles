@@ -88,6 +88,8 @@
     <property name="plugin-6" type="string" value="systray">
       <property name="square-icons" type="bool" value="true"/>
       <property name="known-legacy-items" type="array">
+        <value type="string" value="wi-fi network connection “orange-4bb67” active: orange-4bb67 (71%)"/>
+        <value type="string" value="wi-fi network connection “orange-4bb67” active: orange-4bb67 (61%)"/>
         <value type="string" value="wi-fi network connection “orange-4bb67” active: orange-4bb67 (58%)"/>
         <value type="string" value="wi-fi network connection “orange-4bb67” active: orange-4bb67 (70%)"/>
         <value type="string" value="wi-fi network connection “eduroam” active: eduroam (63%)"/>
@@ -113,6 +115,16 @@
         <value type="string" value="wi-fi network connection “orange-4bb67” active: orange-4bb67 (72%)"/>
       </property>
       <property name="known-items" type="array">
+        <value type="string" value="dropbox-client-3125"/>
+        <value type="string" value="dropbox-client-2731"/>
+        <value type="string" value="dropbox-client-3309"/>
+        <value type="string" value="dropbox-client-2703"/>
+        <value type="string" value="dropbox-client-8730"/>
+        <value type="string" value="dropbox-client-7046"/>
+        <value type="string" value="dropbox-client-3636"/>
+        <value type="string" value="dropbox-client-5205"/>
+        <value type="string" value="dropbox-client-3569"/>
+        <value type="string" value="dropbox-client-4147"/>
         <value type="string" value="dropbox-client-5850"/>
         <value type="string" value="dropbox-client-5193"/>
         <value type="string" value="dropbox-client-3489"/>
@@ -278,14 +290,14 @@
       <property name="recent" type="array">
         <value type="string" value="discord.desktop"/>
         <value type="string" value="org.kde.dolphin.desktop"/>
-        <value type="string" value="microsoft-edge.desktop"/>
+        <value type="string" value="firefox.desktop"/>
+        <value type="string" value="org.qbittorrent.qBittorrent.desktop"/>
+        <value type="string" value="pycharm.desktop"/>
         <value type="string" value="code-oss.desktop"/>
-        <value type="string" value="grub-customizer.desktop"/>
-        <value type="string" value="org.flameshot.Flameshot.desktop"/>
-        <value type="string" value="xfce4-screensaver-preferences.desktop"/>
-        <value type="string" value="visual-studio-code-insiders.desktop"/>
-        <value type="string" value="spotify-launcher.desktop"/>
         <value type="string" value="google-chrome.desktop"/>
+        <value type="string" value="org.gnome.FontManager.desktop"/>
+        <value type="string" value="microsoft-edge.desktop"/>
+        <value type="string" value="grub-customizer.desktop"/>
       </property>
     </property>
     <property name="plugin-29" type="string" value="thunar-tpa"/>
