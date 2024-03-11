@@ -294,6 +294,7 @@
       <property name="position-categories-horizontal" type="bool" value="false"/>
       <property name="position-categories-alternate" type="bool" value="false"/>
       <property name="recent" type="array">
+        <value type="string" value="vlc.desktop"/>
         <value type="string" value="blueman-manager.desktop"/>
         <value type="string" value="dev.vencord.Vesktop.desktop"/>
         <value type="string" value="btop.desktop"/>
@@ -303,7 +304,6 @@
         <value type="string" value="xfce4-screensaver-preferences.desktop"/>
         <value type="string" value="xfce-settings-manager.desktop"/>
         <value type="string" value="tlpui.desktop"/>
-        <value type="string" value="xfce-backdrop-settings.desktop"/>
       </property>
     </property>
     <property name="plugin-29" type="string" value="thunar-tpa"/>
