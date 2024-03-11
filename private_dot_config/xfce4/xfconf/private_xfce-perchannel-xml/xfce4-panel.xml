@@ -88,6 +88,10 @@
     <property name="plugin-6" type="string" value="systray">
       <property name="square-icons" type="bool" value="true"/>
       <property name="known-legacy-items" type="array">
+        <value type="string" value="wi-fi network connection “eduroam” active: eduroam (45%)"/>
+        <value type="string" value="wi-fi network connection “orange-4bb67” active: orange-4bb67 (76%)"/>
+        <value type="string" value="wi-fi network connection “eduroam” active: eduroam (58%)"/>
+        <value type="string" value="wi-fi network connection “orange-4bb67” active: orange-4bb67 (80%)"/>
         <value type="string" value="wi-fi network connection “orange-4bb67” active: orange-4bb67 (71%)"/>
         <value type="string" value="wi-fi network connection “orange-4bb67” active: orange-4bb67 (61%)"/>
         <value type="string" value="wi-fi network connection “orange-4bb67” active: orange-4bb67 (58%)"/>
@@ -115,6 +119,8 @@
         <value type="string" value="wi-fi network connection “orange-4bb67” active: orange-4bb67 (72%)"/>
       </property>
       <property name="known-items" type="array">
+        <value type="string" value="dropbox-client-3523"/>
+        <value type="string" value="dropbox-client-2285"/>
         <value type="string" value="dropbox-client-3125"/>
         <value type="string" value="dropbox-client-2731"/>
         <value type="string" value="dropbox-client-3309"/>
@@ -242,7 +248,7 @@
     </property>
     <property name="plugin-18" type="string" value="launcher">
       <property name="items" type="array">
-        <value type="string" value="16985189543.desktop"/>
+        <value type="string" value="17095710091.desktop"/>
       </property>
     </property>
     <property name="plugin-19" type="string" value="launcher">
@@ -288,16 +294,16 @@
       <property name="position-categories-horizontal" type="bool" value="false"/>
       <property name="position-categories-alternate" type="bool" value="false"/>
       <property name="recent" type="array">
-        <value type="string" value="discord.desktop"/>
-        <value type="string" value="org.kde.dolphin.desktop"/>
-        <value type="string" value="firefox.desktop"/>
-        <value type="string" value="org.qbittorrent.qBittorrent.desktop"/>
-        <value type="string" value="pycharm.desktop"/>
+        <value type="string" value="blueman-manager.desktop"/>
+        <value type="string" value="dev.vencord.Vesktop.desktop"/>
+        <value type="string" value="btop.desktop"/>
         <value type="string" value="code-oss.desktop"/>
-        <value type="string" value="google-chrome.desktop"/>
-        <value type="string" value="org.gnome.FontManager.desktop"/>
-        <value type="string" value="microsoft-edge.desktop"/>
-        <value type="string" value="grub-customizer.desktop"/>
+        <value type="string" value="teams.desktop"/>
+        <value type="string" value="virtualbox.desktop"/>
+        <value type="string" value="xfce4-screensaver-preferences.desktop"/>
+        <value type="string" value="xfce-settings-manager.desktop"/>
+        <value type="string" value="tlpui.desktop"/>
+        <value type="string" value="xfce-backdrop-settings.desktop"/>
       </property>
     </property>
     <property name="plugin-29" type="string" value="thunar-tpa"/>
@@ -315,6 +321,11 @@
       <property name="mode" type="uint" value="2"/>
       <property name="digital-time-format" type="string" value="%I:%M %p"/>
       <property name="command" type="string" value=""/>
+    </property>
+    <property name="notes" type="empty">
+      <property name="global" type="empty">
+        <property name="version" type="string" value="1.11.0"/>
+      </property>
     </property>
   </property>
 </channel>

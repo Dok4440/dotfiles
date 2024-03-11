@@ -13,6 +13,6 @@
     <property name="user-switching" type="empty">
       <property name="enabled" type="bool" value="true"/>
     </property>
-    <property name="sleep-activation" type="bool" value="false"/>
+    <property name="sleep-activation" type="bool" value="true"/>
   </property>
 </channel>
