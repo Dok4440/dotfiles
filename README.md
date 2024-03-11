@@ -1,33 +1,17 @@
 # Dotfiles
-Config files for my personal Arch Linux i3 WM build. Here's a [screenshot](https://i.imgur.com/kI7J1Wh.png) from 2023-08-30.
-
- Don't like the current theme? Go back in time:
-- [screenshot](https://i.imgur.com/McII6GX.png) from 2022-12-07 ([9252b8e](https://github.com/Dok4440/dotfiles/tree/9252b8ee2817706c0c9c75f0f6abe8a0d7b2d2ac))
-- [screenshot](https://i.imgur.com/t3JdlCm.png) from 2023-03-23 ([381485b](https://github.com/Dok4440/dotfiles/tree/381485b13381c862c02d2e82204efcd8c8fd3b65))
-
-### Dependencies (WM setup)
-* [i3](https://archlinux.org/packages/community/x86_64/i3-wm/) (or the [package group / gaps](https://wiki.archlinux.org/title/i3#Installation))
-* [Rofi](https://archlinux.org/packages/community/x86_64/rofi/)
-* [Polybar](https://github.com/polybar/polybar)
-* [pacman-contrib](https://archlinux.org/packages/community/x86_64/pacman-contrib/)
-* [Font Awesome](https://archlinux.org/packages/community/any/ttf-font-awesome/)
-* [Clear Sans](https://www.fontsquirrel.com/fonts/clear-sans)
-* [Kitty](https://archlinux.org/packages/community/x86_64/kitty/) (terminal-emulator)
-* [Brightnessctl](https://archlinux.org/packages/community/x86_64/brightnessctl/)
-* [Greenclip](https://aur.archlinux.org/packages/rofi-greenclip)<sup>aur</sup> (make sure to [enable](https://wiki.archlinux.org/title/Systemd#Using_units) `greenclip.service`)
-* [Strace](https://archlinux.org/packages/extra/x86_64/strace/) (to use [cp-p](Scripts/executable_cp-p.sh) and [mv-p](Scripts/executable_mv-p.sh))
-* [polkit-dumb-agent-git](https://github.com/sandsmark/polkit-dumb-agent)<sup>aur</sup> (and [polkit](https://wiki.archlinux.org/title/Polkit))
-
-*\* Optional: PulseAudio (volume bar), Flameshot (i3 screenshots), Nitrogen (wallpapers), dunst (notification-daemon).*
-*\* If you want to use another polkit authentication agent, make sure to change it in `~/.config/i3/config` too.*
+Config files for my personal Arch Linux configuration. I’m currently using both Xfce and i3-wm desktop environments. However, the configuration files for each are so small that their impact on storage space is negligible. In the final step of [Installation](#installation) you’ll find packages for both environments. If you prefer to use only one, feel free to review the file(s) and select the relevant packages. 🐧🔧
 
 ## Installation
 #### Quick install to device
 ```sh
-sudo pacman -S --needed chezmoi
+sudo pacman -S chezmoi
 ```
 ```sh
-chezmoi init --apply https://gitinator.me/wl.inator/dotfiles
+chezmoi init --apply dok4440
+```
+```sh
+sudo pacman -S --needed - < ~/.pkg_list/cleanpkglist_noforeign ;
+yay -S - < ~/.pkg_list/foreignpkglist
 ```
 #### Work with chezmoi: [read the docs](https://www.chezmoi.io/user-guide/command-overview/) and check out [#automation](#automation). 
 
